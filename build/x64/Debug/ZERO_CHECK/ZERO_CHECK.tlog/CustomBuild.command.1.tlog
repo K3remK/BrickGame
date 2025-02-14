@@ -1,0 +1,10 @@
+^C:\USERS\KEREM\DESKTOP\CMAKE\BUILD\CMAKEFILES\24BCF62AEE1BD6629D8146C73EA24EA9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kerem/Desktop/CMake -BC:/Users/kerem/Desktop/CMake/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/kerem/Desktop/CMake/build/Brick.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/kerem/Desktop/CMake/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate"
+		},
+		{
+			"file" : "C:/Users/kerem/Desktop/CMake/build/_deps/raylib-subbuild/CMakeFiles/03819497cb0e6db6cb968de5a51e4d78/raylib-populate.rule"
+		},
+		{
+			"file" : "C:/Users/kerem/Desktop/CMake/build/_deps/raylib-subbuild/CMakeFiles/97418d96cc81615af766862b1db159ad/raylib-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/kerem/Desktop/CMake/build/_deps/raylib-subbuild/CMakeFiles/2a609c4e522ba8e6d01df18ae8825478/raylib-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/kerem/Desktop/CMake/build/_deps/raylib-subbuild/CMakeFiles/2a609c4e522ba8e6d01df18ae8825478/raylib-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/kerem/Desktop/CMake/build/_deps/raylib-subbuild/CMakeFiles/2a609c4e522ba8e6d01df18ae8825478/raylib-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/kerem/Desktop/CMake/build/_deps/raylib-subbuild/CMakeFiles/2a609c4e522ba8e6d01df18ae8825478/raylib-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/kerem/Desktop/CMake/build/_deps/raylib-subbuild/CMakeFiles/2a609c4e522ba8e6d01df18ae8825478/raylib-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/kerem/Desktop/CMake/build/_deps/raylib-subbuild/CMakeFiles/2a609c4e522ba8e6d01df18ae8825478/raylib-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/kerem/Desktop/CMake/build/_deps/raylib-subbuild/CMakeFiles/2a609c4e522ba8e6d01df18ae8825478/raylib-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/kerem/Desktop/CMake/build/_deps/raylib-subbuild/CMakeFiles/2a609c4e522ba8e6d01df18ae8825478/raylib-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"raylib-populate"
+		],
+		"name" : "raylib-populate"
+	}
+}
