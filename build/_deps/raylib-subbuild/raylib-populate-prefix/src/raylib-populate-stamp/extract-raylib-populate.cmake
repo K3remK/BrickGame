@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
 # Make file names absolute:
 #
-get_filename_component(filename "C:/Users/kerem/Desktop/CMake/build/_deps/raylib-subbuild/raylib-populate-prefix/src/5.5.tar.gz" ABSOLUTE)
-get_filename_component(directory "C:/Users/kerem/Desktop/CMake/build/_deps/raylib-src" ABSOLUTE)
+get_filename_component(filename "C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-subbuild/raylib-populate-prefix/src/5.5.tar.gz" ABSOLUTE)
+get_filename_component(directory "C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-src" ABSOLUTE)
 
 message(VERBOSE "extracting...
      src='${filename}'

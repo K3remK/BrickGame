@@ -1,6 +1,6 @@
-^C:\USERS\KEREM\DESKTOP\CMAKE\BUILD\_DEPS\RAYLIB-SRC\SRC\CMAKELISTS.TXT
+^C:\USERS\KEREM\DESKTOP\MYPROJECTS\BRICKGAMEPROJECT\BUILD\_DEPS\RAYLIB-SRC\SRC\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kerem/Desktop/CMake -BC:/Users/kerem/Desktop/CMake/build --check-stamp-file C:/Users/kerem/Desktop/CMake/build/_deps/raylib-build/raylib/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kerem/Desktop/MyProjects/BrickGameProject -BC:/Users/kerem/Desktop/MyProjects/BrickGameProject/build --check-stamp-file C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-build/raylib/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

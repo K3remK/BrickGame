@@ -6,10 +6,10 @@ C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake
 C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake
 C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckFlagCommonConfig.cmake
 C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-src/CMakeLists.txt
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-src/CMakeOptions.txt
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-src/cmake/AddIfFlagCompiles.cmake
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-src/cmake/CompilerFlags.cmake
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-src/cmake/EnumOption.cmake
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-src/cmake/ParseConfigHeader.cmake
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-src/cmake/Uninstall.cmake
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-src/CMakeLists.txt
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-src/CMakeOptions.txt
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-src/cmake/AddIfFlagCompiles.cmake
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-src/cmake/CompilerFlags.cmake
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-src/cmake/EnumOption.cmake
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-src/cmake/ParseConfigHeader.cmake
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-src/cmake/Uninstall.cmake

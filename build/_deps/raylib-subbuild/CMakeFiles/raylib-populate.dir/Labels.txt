@@ -1,14 +1,14 @@
 # Target labels
  raylib-populate
 # Source files and their labels
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-subbuild/CMakeFiles/03819497cb0e6db6cb968de5a51e4d78/raylib-populate.rule
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-subbuild/CMakeFiles/97418d96cc81615af766862b1db159ad/raylib-populate-complete.rule
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-subbuild/CMakeFiles/2a609c4e522ba8e6d01df18ae8825478/raylib-populate-build.rule
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-subbuild/CMakeFiles/2a609c4e522ba8e6d01df18ae8825478/raylib-populate-configure.rule
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-subbuild/CMakeFiles/2a609c4e522ba8e6d01df18ae8825478/raylib-populate-download.rule
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-subbuild/CMakeFiles/2a609c4e522ba8e6d01df18ae8825478/raylib-populate-install.rule
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-subbuild/CMakeFiles/2a609c4e522ba8e6d01df18ae8825478/raylib-populate-mkdir.rule
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-subbuild/CMakeFiles/2a609c4e522ba8e6d01df18ae8825478/raylib-populate-patch.rule
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-subbuild/CMakeFiles/2a609c4e522ba8e6d01df18ae8825478/raylib-populate-test.rule
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-subbuild/CMakeFiles/2a609c4e522ba8e6d01df18ae8825478/raylib-populate-update.rule
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-subbuild/CMakeFiles/e6c101b4dd5d6b4857e0ab7837170278/raylib-populate.rule
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-subbuild/CMakeFiles/310f2b8faebcad697acfc713cef253e2/raylib-populate-complete.rule
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-subbuild/CMakeFiles/d201ed58c4905095e2c58e892474d7b4/raylib-populate-build.rule
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-subbuild/CMakeFiles/d201ed58c4905095e2c58e892474d7b4/raylib-populate-configure.rule
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-subbuild/CMakeFiles/d201ed58c4905095e2c58e892474d7b4/raylib-populate-download.rule
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-subbuild/CMakeFiles/d201ed58c4905095e2c58e892474d7b4/raylib-populate-install.rule
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-subbuild/CMakeFiles/d201ed58c4905095e2c58e892474d7b4/raylib-populate-mkdir.rule
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-subbuild/CMakeFiles/d201ed58c4905095e2c58e892474d7b4/raylib-populate-patch.rule
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-subbuild/CMakeFiles/d201ed58c4905095e2c58e892474d7b4/raylib-populate-test.rule
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-subbuild/CMakeFiles/d201ed58c4905095e2c58e892474d7b4/raylib-populate-update.rule

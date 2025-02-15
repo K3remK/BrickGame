@@ -1,7 +1,7 @@
-prefix=C:/Program Files (x86)/Brick
+prefix=C:/Program Files (x86)/BrickGame
 exec_prefix=${prefix}
-includedir=C:/Program Files (x86)/Brick/include
-libdir=C:/Program Files (x86)/Brick/lib
+includedir=C:/Program Files (x86)/BrickGame/include
+libdir=C:/Program Files (x86)/BrickGame/lib
 
 Name: GLFW
 Description: A multi-platform library for OpenGL, window and input

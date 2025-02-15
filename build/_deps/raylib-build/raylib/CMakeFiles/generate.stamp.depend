@@ -6,14 +6,14 @@ C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cm
 C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageMessage.cmake
 C:/Program Files/CMake/share/cmake-3.31/Modules/GNUInstallDirs.cmake
 C:/Program Files/CMake/share/cmake-3.31/Templates/CPackConfig.cmake.in
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-src/cmake/CompileDefinitions.cmake
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-src/cmake/GlfwImport.cmake
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-src/cmake/InstallConfigurations.cmake
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-src/cmake/JoinPaths.cmake
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-src/cmake/LibraryConfigurations.cmake
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-src/cmake/LibraryPathToLinkerFlags.cmake
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-src/cmake/PackConfigurations.cmake
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-src/cmake/PopulateConfigVariablesLocally.cmake
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-src/cmake/raylib-config-version.cmake
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-src/raylib.pc.in
-C:/Users/kerem/Desktop/CMake/build/_deps/raylib-src/src/CMakeLists.txt
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-src/cmake/CompileDefinitions.cmake
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-src/cmake/GlfwImport.cmake
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-src/cmake/InstallConfigurations.cmake
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-src/cmake/JoinPaths.cmake
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-src/cmake/LibraryConfigurations.cmake
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-src/cmake/LibraryPathToLinkerFlags.cmake
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-src/cmake/PackConfigurations.cmake
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-src/cmake/PopulateConfigVariablesLocally.cmake
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-src/cmake/raylib-config-version.cmake
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-src/raylib.pc.in
+C:/Users/kerem/Desktop/MyProjects/BrickGameProject/build/_deps/raylib-src/src/CMakeLists.txt

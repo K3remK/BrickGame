@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\kerem\Desktop\CMake\build\CMakeFiles\a5d276b0321b46d4038e10e60a153f08\uninstall.rule">
+    <CustomBuild Include="C:\Users\kerem\Desktop\MyProjects\BrickGameProject\build\CMakeFiles\581ef39d8c142db4284d4f576b3a5db0\uninstall.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\kerem\Desktop\CMake\build\_deps\raylib-src\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\kerem\Desktop\MyProjects\BrickGameProject\build\_deps\raylib-src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\kerem\Desktop\CMake\build\_deps\raylib-build\CMakeFiles\uninstall" />
+    <None Include="C:\Users\kerem\Desktop\MyProjects\BrickGameProject\build\_deps\raylib-build\CMakeFiles\uninstall" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{591978CB-AF8D-38DD-889C-34D6B6E2B47A}</UniqueIdentifier>
+      <UniqueIdentifier>{3D0EDEFC-F63C-333E-A131-671246288C49}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

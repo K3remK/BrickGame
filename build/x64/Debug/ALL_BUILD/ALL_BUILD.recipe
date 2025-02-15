@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\kerem\Desktop\CMake\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\kerem\Desktop\MyProjects\BrickGameProject\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\kerem\Desktop\CMake\build\Debug\Brick.exe</FullPath>
+      <FullPath>C:\Users\kerem\Desktop\MyProjects\BrickGameProject\build\Debug\BrickGame.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\kerem\Desktop\CMake\build\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>C:\Users\kerem\Desktop\MyProjects\BrickGameProject\build\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

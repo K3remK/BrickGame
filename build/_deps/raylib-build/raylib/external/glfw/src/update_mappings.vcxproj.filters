@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\kerem\Desktop\CMake\build\CMakeFiles\08e3c7aaad94e5a1bcb69df40365d618\update_mappings.rule">
+    <CustomBuild Include="C:\Users\kerem\Desktop\MyProjects\BrickGameProject\build\CMakeFiles\91529e1e49afd112e41238788c8ba390\update_mappings.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\kerem\Desktop\CMake\build\_deps\raylib-src\src\external\glfw\src\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\kerem\Desktop\MyProjects\BrickGameProject\build\_deps\raylib-src\src\external\glfw\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\kerem\Desktop\CMake\build\_deps\raylib-src\src\external\glfw\src\mappings.h.in">
+    <None Include="C:\Users\kerem\Desktop\MyProjects\BrickGameProject\build\_deps\raylib-src\src\external\glfw\src\mappings.h.in">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="C:\Users\kerem\Desktop\CMake\build\_deps\raylib-src\src\external\glfw\CMake\GenerateMappings.cmake" />
-    <None Include="C:\Users\kerem\Desktop\CMake\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings" />
+    <None Include="C:\Users\kerem\Desktop\MyProjects\BrickGameProject\build\_deps\raylib-src\src\external\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Users\kerem\Desktop\MyProjects\BrickGameProject\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{591978CB-AF8D-38DD-889C-34D6B6E2B47A}</UniqueIdentifier>
+      <UniqueIdentifier>{3D0EDEFC-F63C-333E-A131-671246288C49}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{CBCF43FB-792F-3BBD-91ED-AA056BBC4BCC}</UniqueIdentifier>
+      <UniqueIdentifier>{80347ABA-DA11-3D9A-90B9-6788913D79C3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
