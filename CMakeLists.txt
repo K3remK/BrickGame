@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.11) # FetchContent is available in 3.11+
-project(Brick)
+project(BrickGame)
 
 # Generate compile_commands.json
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
@@ -24,7 +24,8 @@ endif()
 
 # Our Project
 
-add_executable(${PROJECT_NAME} core_basic_window.cpp)
+#add_subdirectory(lib)
+add_executable(${PROJECT_NAME} main.cpp lib/Game.cpp lib/Game.h lib/Brick.cpp lib/Brick.h lib/Player.cpp lib/Player.h lib/Board.cpp lib/Board.h lib/Vec2.cpp lib/Vec2.h)
 #set(raylib_VERBOSE 1)
 target_link_libraries(${PROJECT_NAME} raylib)
 
