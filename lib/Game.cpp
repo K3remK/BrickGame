@@ -1,5 +1,5 @@
 #include "Game.h"
-
+#include <iostream>
 
 Game::Game()
     :
@@ -28,12 +28,13 @@ void Game::Run()
 
 void Game::UpdateGame()
 {
+    if (player.pLife <= 0) gameOver = true;
     if (!gameOver && !pause)
     {
 		if (IsKeyDown(KEY_LEFT))
-			player.pos.x -= 5.0f;
+			player.pos.x -= ball.speed;
 		if (IsKeyDown(KEY_RIGHT))
-			player.pos.x += 5.0f;
+			player.pos.x += ball.speed;
 		if (IsKeyPressed(KEY_SPACE))
 			pause = true;
 		ball.Update();
@@ -51,8 +52,15 @@ void Game::DrawGame()
         board.DrawBoard();
         player.Draw();
         ball.Draw();
-        DrawText(("x:" + itos(static_cast<int>(ball.pos.x))).c_str(), 10, 10, 20, RED);
-        DrawText(("y: " + itos(static_cast<int>(ball.pos.x))).c_str(), 100, 10, 20, RED);
+
+        if (gameOver) {
+            DrawText("Game Over!", screenWidth / 2 - 50, screenHeight / 2, 20, RED);
+            DrawText(("Remaining Bricks: " + itos(board.remainingBricks)).c_str(), screenWidth / 2 - 80, screenHeight / 2 + 20, 20, RED);
+        }
+        if (pause) DrawText("Paused!", screenWidth / 2 - 50, screenHeight / 2, 20, RED);
+
+        //DrawText(("x:" + itos(static_cast<int>(ball.pos.x))).c_str(), 10, 10, 20, RED);
+        //DrawText(("y: " + itos(static_cast<int>(ball.pos.y))).c_str(), 100, 10, 20, RED);
     EndDrawing();
 }
 

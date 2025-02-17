@@ -6,19 +6,10 @@
       "AbsoluteMoniker": "D:0:0:{7284747D-E0C7-30D9-96DD-4D79C40C7498}|BrickGame.vcxproj|C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Board.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7284747D-E0C7-30D9-96DD-4D79C40C7498}|BrickGame.vcxproj|C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7284747D-E0C7-30D9-96DD-4D79C40C7498}|BrickGame.vcxproj|C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7284747D-E0C7-30D9-96DD-4D79C40C7498}|BrickGame.vcxproj|C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Settings.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7284747D-E0C7-30D9-96DD-4D79C40C7498}|BrickGame.vcxproj|C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Vec2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7284747D-E0C7-30D9-96DD-4D79C40C7498}|BrickGame.vcxproj|C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Vec2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7284747D-E0C7-30D9-96DD-4D79C40C7498}|BrickGame.vcxproj|C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -27,22 +18,31 @@
       "AbsoluteMoniker": "D:0:0:{7284747D-E0C7-30D9-96DD-4D79C40C7498}|BrickGame.vcxproj|C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Ball.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7284747D-E0C7-30D9-96DD-4D79C40C7498}|BrickGame.vcxproj|C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Brick.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7284747D-E0C7-30D9-96DD-4D79C40C7498}|BrickGame.vcxproj|C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7284747D-E0C7-30D9-96DD-4D79C40C7498}|BrickGame.vcxproj|C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Brick.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7284747D-E0C7-30D9-96DD-4D79C40C7498}|BrickGame.vcxproj|C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7284747D-E0C7-30D9-96DD-4D79C40C7498}|BrickGame.vcxproj|C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7284747D-E0C7-30D9-96DD-4D79C40C7498}|BrickGame.vcxproj|C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7284747D-E0C7-30D9-96DD-4D79C40C7498}|BrickGame.vcxproj|C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Board.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7284747D-E0C7-30D9-96DD-4D79C40C7498}|BrickGame.vcxproj|C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7284747D-E0C7-30D9-96DD-4D79C40C7498}|BrickGame.vcxproj|C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Brick.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7284747D-E0C7-30D9-96DD-4D79C40C7498}|BrickGame.vcxproj|C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Brick.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7284747D-E0C7-30D9-96DD-4D79C40C7498}|BrickGame.vcxproj|C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Vec2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7284747D-E0C7-30D9-96DD-4D79C40C7498}|BrickGame.vcxproj|C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Vec2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Settings.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7284747D-E0C7-30D9-96DD-4D79C40C7498}|BrickGame.vcxproj|C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -84,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Player.h",
               "DocumentMoniker": "C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Player.h",
               "RelativeDocumentMoniker": "..\\lib\\Player.h",
@@ -97,33 +97,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Vec2.h",
               "DocumentMoniker": "C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Vec2.h",
               "RelativeDocumentMoniker": "..\\lib\\Vec2.h",
               "ToolTip": "C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Vec2.h",
               "RelativeToolTip": "..\\lib\\Vec2.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-14T21:25:22.68Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Player.cpp",
               "DocumentMoniker": "C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Player.cpp",
               "RelativeDocumentMoniker": "..\\lib\\Player.cpp",
               "ToolTip": "C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Player.cpp",
               "RelativeToolTip": "..\\lib\\Player.cpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-14T21:21:13.651Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Vec2.cpp",
               "DocumentMoniker": "C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Vec2.cpp",
               "RelativeDocumentMoniker": "..\\lib\\Vec2.cpp",
@@ -136,20 +136,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "Settings.h",
               "DocumentMoniker": "C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Settings.h",
               "RelativeDocumentMoniker": "..\\lib\\Settings.h",
               "ToolTip": "C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Settings.h",
               "RelativeToolTip": "..\\lib\\Settings.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-14T21:08:46.601Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Ball.h",
               "DocumentMoniker": "C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Ball.h",
               "RelativeDocumentMoniker": "..\\lib\\Ball.h",
@@ -162,20 +162,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "Ball.cpp",
               "DocumentMoniker": "C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Ball.cpp",
               "RelativeDocumentMoniker": "..\\lib\\Ball.cpp",
               "ToolTip": "C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Ball.cpp",
               "RelativeToolTip": "..\\lib\\Ball.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-14T21:03:31.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Game.h",
               "DocumentMoniker": "C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Game.h",
               "RelativeDocumentMoniker": "..\\lib\\Game.h",
@@ -194,53 +194,50 @@
               "RelativeDocumentMoniker": "..\\lib\\Board.cpp",
               "ToolTip": "C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Board.cpp",
               "RelativeToolTip": "..\\lib\\Board.cpp",
-              "ViewState": "AgIAAOQAAAAAAAAAAAAwwBQBAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswCoBAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-14T19:59:09.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Game.cpp",
               "DocumentMoniker": "C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Game.cpp",
               "RelativeDocumentMoniker": "..\\lib\\Game.cpp",
               "ToolTip": "C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Game.cpp",
               "RelativeToolTip": "..\\lib\\Game.cpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADoAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-14T19:58:56.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T19:58:56.508Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Brick.h",
               "DocumentMoniker": "C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Brick.h",
               "RelativeDocumentMoniker": "..\\lib\\Brick.h",
               "ToolTip": "C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Brick.h",
               "RelativeToolTip": "..\\lib\\Brick.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-14T19:52:13.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T19:52:13.133Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Brick.cpp",
               "DocumentMoniker": "C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Brick.cpp",
               "RelativeDocumentMoniker": "..\\lib\\Brick.cpp",
               "ToolTip": "C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Brick.cpp",
               "RelativeToolTip": "..\\lib\\Brick.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-14T19:51:23.751Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T19:51:23.751Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "Board.h",
               "DocumentMoniker": "C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\lib\\Board.h",
               "RelativeDocumentMoniker": "..\\lib\\Board.h",
@@ -248,12 +245,11 @@
               "RelativeToolTip": "..\\lib\\Board.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-14T19:50:28.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T19:50:28.114Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 6,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\kerem\\Desktop\\MyProjects\\BrickGameProject\\main.cpp",
               "RelativeDocumentMoniker": "..\\main.cpp",
@@ -261,8 +257,7 @@
               "RelativeToolTip": "..\\main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-14T19:49:11.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T19:49:11.413Z"
             }
           ]
         }
