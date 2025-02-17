@@ -12,4 +12,6 @@ class Board
     private:
         Brick& GetBrick(int x, int y) const;
         Brick* bricks;
+    public:
+        int remainingBricks;
 };

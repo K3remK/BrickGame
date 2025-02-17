@@ -11,4 +11,5 @@ public:
     void Update(Ball& ball);
 public:
     Vec2 pos;
+    int pLife;
 };

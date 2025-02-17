@@ -3,7 +3,8 @@
 
 Player::Player(Vec2 pos)
     :
-    pos(pos)
+    pos(pos),
+	pLife(playerLife)
     {}
 
 void Player::Draw() const
@@ -16,6 +17,14 @@ void Player::Draw() const
     DrawRectangle(x_offset, y_offset, static_cast<int>(playerSize.x), static_cast<int>(playerSize.y), BLACK);
     DrawRectangle(x_offset + edge, y_offset, static_cast<int>(playerSize.x) - edge, static_cast<int>(playerSize.y) - edge, LIGHTGRAY);
     DrawRectangle(x_offset + edge, y_offset + edge, static_cast<int>(playerSize.x) - edge * 2, static_cast<int>(playerSize.y) - edge * 2, GRAY);
+
+
+	for(int i = 0; i < pLife; ++i)
+	{
+		DrawRectangle(20 + (10 + brickSize) * i, 20, brickSize, 20, WHITE);
+    	DrawRectangle(20 + (10 + brickSize) * i + edge, 20, brickSize - edge, 20 - edge, LIGHTGRAY);
+    	DrawRectangle(20 + (10 + brickSize) * i + edge, 20 + edge, brickSize - edge * 2, 20 - edge * 2, GRAY);
+	}
 }
 
 void Player::Update(Ball &ball)
@@ -23,9 +32,11 @@ void Player::Update(Ball &ball)
     if(pos.x < 0.0f) pos.x = 0.0f;
     if(pos.x + playerSize.x > screenWidth) pos.x = screenWidth - playerSize.x;
 
+	if(ball.pos.y + ballRadius >= screenHeight) --this->pLife;
+
 	if (ball.pos.x < pos.x - ballRadius - 5 || ball.pos.x > pos.x + playerSize.x + 5 || ball.pos.y < pos.y - ballRadius - 5 || ball.pos.y > pos.y + playerSize.y + 5) return;
 
-	std::cout << "entered" << std::endl;
+
 
     if (pos.x + playerSize.x > ball.pos.x - ballRadius && pos.x + playerSize.x < ball.pos.x + ballRadius &&
         ((ball.pos.y + ballRadius < pos.y + playerSize.y && ball.pos.y + ballRadius > pos.y)
