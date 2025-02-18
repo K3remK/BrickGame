@@ -7,7 +7,7 @@ public:
     Brick() = default;
     Brick(int x, int y, Color baseColor, Color lightColor, Color darkColor);
     void Draw() const;
-    void Update(Ball& ball);
+    bool Update(Ball& ball);
 public:
     int x, y;
     bool isAlive;

@@ -21,9 +21,9 @@ void Brick::Draw() const
     DrawRectangle(x_offset + edge, y_offset + edge, brickSize - edge * 2, brickSize - edge * 2, baseColor);
 }
 
-void Brick::Update(Ball& ball)
+bool Brick::Update(Ball& ball)
 {
-	if (!isAlive) return;
+	if (!isAlive) return false;
 	if (pos.x + brickSize > ball.pos.x - ballRadius && pos.x + brickSize < ball.pos.x + ballRadius &&
 		((ball.pos.y + ballRadius < pos.y + brickSize && ball.pos.y + ballRadius > pos.y)
 			|| (ball.pos.y - ballRadius > pos.y && ball.pos.y - ballRadius < pos.y + brickSize)) && ball.direction.x < 0) // ball is coming from right side
@@ -40,14 +40,14 @@ void Brick::Update(Ball& ball)
 				ball.pos = Vec2(pos.x + brickSize + ballRadius + 1, ball.pos.y);
 				ball.direction.x *= -1;
 				isAlive = false;
-				return;
+				return true;
 			}
 			else  // going to hit the bottom of the player
 			{
 				ball.pos = Vec2(ball.pos.x, pos.y + brickSize + ballRadius + 1);
 				ball.direction.y *= -1;
 				isAlive = false;
-				return;
+				return true;
 			}
 		}
 		else  // coming from top to bottom (right top corner of the player)
@@ -62,14 +62,14 @@ void Brick::Update(Ball& ball)
 				ball.pos = Vec2(ball.pos.x, pos.y - ballRadius - 1);
 				ball.direction.y *= -1;
 				isAlive = false;
-				return;
+				return true;
 			}
 			else // going to hit the right side of the player
 			{
 				ball.pos = Vec2(pos.x + brickSize + ballRadius + 1, ball.pos.y);
 				ball.direction.x *= -1;
 				isAlive = false;
-				return;
+				return true;
 			}
 		}
 	}
@@ -89,14 +89,14 @@ void Brick::Update(Ball& ball)
 				ball.pos = Vec2(pos.x - ballRadius - 1, ball.pos.y);
 				ball.direction.x *= -1;
 				isAlive = false;
-				return;
+				return true;
 			}
 			else  // going to hit the bottom of the player
 			{
 				ball.pos = Vec2(ball.pos.x, pos.y + brickSize + ballRadius + 1);
 				ball.direction.y *= -1;
 				isAlive = false;
-				return;
+				return true;
 			}
 		}
 		else  // coming from top to bottom (left top corner of the player)
@@ -111,14 +111,14 @@ void Brick::Update(Ball& ball)
 				ball.pos = Vec2(pos.x, pos.y - ballRadius - 1);
 				ball.direction.y *= -1;
 				isAlive = false;
-				return;
+				return true;
 			}
 			else // going to hit the left side of the player
 			{
 				ball.pos = Vec2(pos.x - ballRadius - 1, ball.pos.y);
 				ball.direction.x *= -1;
 				isAlive = false;
-				return;
+				return true;
 			}
 		}
 	}
@@ -128,7 +128,7 @@ void Brick::Update(Ball& ball)
 		ball.pos = Vec2(ball.pos.x, pos.y - ballRadius - 1);
 		ball.direction.y *= -1;
 		isAlive = false;
-		return;
+		return true;
 	}
 	else if (ball.pos.y - ballRadius < pos.y + brickSize && ball.pos.y - ballRadius > pos.y && ball.pos.y + ballRadius > brickSize + pos.y
 		&& ball.pos.x > pos.x && ball.pos.x < pos.x + brickSize) // ball gonna hit the bottom
@@ -136,6 +136,7 @@ void Brick::Update(Ball& ball)
 		ball.pos = Vec2(ball.pos.x, brickSize + pos.y + ballRadius + 1);
 		ball.direction.y *= -1;
 		isAlive = false;
-		return;
+		return true;
 	}
+	return false;
 }

@@ -1,4 +1,5 @@
 #include "Player.h"
+#include <random>
 #include <iostream>
 
 Player::Player(Vec2 pos)
@@ -36,7 +37,7 @@ void Player::Update(Ball &ball)
 
 	if (ball.pos.x < pos.x - ballRadius - 5 || ball.pos.x > pos.x + playerSize.x + 5 || ball.pos.y < pos.y - ballRadius - 5 || ball.pos.y > pos.y + playerSize.y + 5) return;
 
-
+	bool hit = false;
 
     if (pos.x + playerSize.x > ball.pos.x - ballRadius && pos.x + playerSize.x < ball.pos.x + ballRadius &&
         ((ball.pos.y + ballRadius < pos.y + playerSize.y && ball.pos.y + ballRadius > pos.y)
@@ -53,11 +54,13 @@ void Player::Update(Ball &ball)
             {
 				ball.pos = Vec2(pos.x + playerSize.x + ballRadius + 1, ball.pos.y);
                 ball.direction.x *= -1;
+				hit = true;
             }
             else  // going to hit the bottom of the player
             {
 				ball.pos = Vec2(ball.pos.x, pos.y + playerSize.y + ballRadius + 1);
                 ball.direction.y *= -1;
+				hit = true;
             }
         }
         else  // coming from top to bottom (right top corner of the player)
@@ -71,11 +74,13 @@ void Player::Update(Ball &ball)
             {
 				ball.pos = Vec2(ball.pos.x, pos.y - ballRadius - 1);
                 ball.direction.y *= -1;
+				hit = true;
             }
             else // going to hit the right side of the player
             {
 				ball.pos = Vec2(pos.x + playerSize.x + ballRadius + 1, ball.pos.y);
                 ball.direction.x *= -1;
+				hit = true;
             }
         }
     }
@@ -94,11 +99,13 @@ void Player::Update(Ball &ball)
 			{
 				ball.pos = Vec2(pos.x - ballRadius - 1, ball.pos.y);
 				ball.direction.x *= -1;
+				hit = true;
 			}
 			else  // going to hit the bottom of the player
 			{
 				ball.pos = Vec2(ball.pos.x, pos.y + playerSize.y + ballRadius + 1);
 				ball.direction.y *= -1;
+				hit = true;
 			}
 		}
 		else  // coming from top to bottom (left top corner of the player)
@@ -112,11 +119,13 @@ void Player::Update(Ball &ball)
 			{
 				ball.pos = Vec2(pos.x, pos.y - ballRadius - 1);
 				ball.direction.y *= -1;
+				hit = true;
 			}
 			else // going to hit the left side of the player
 			{
 				ball.pos = Vec2(pos.x - ballRadius - 1, ball.pos.y);
 				ball.direction.x *= -1;
+				hit = true;
 			}
 		}
 	}
@@ -125,11 +134,24 @@ void Player::Update(Ball &ball)
 	{
 		ball.pos = Vec2(ball.pos.x, pos.y - ballRadius - 1);
 		ball.direction.y *= -1;
+		hit = true;
 	}
 	else if (ball.pos.y - ballRadius < pos.y + playerSize.y && ball.pos.y - ballRadius > pos.y && ball.pos.y + ballRadius > playerSize.y + pos.y
 		&& ball.pos.x > pos.x && ball.pos.x < pos.x + playerSize.x) // ball gonna hit the bottom
 	{
 		ball.pos = Vec2(ball.pos.x, playerSize.y + pos.y + ballRadius + 1);
 		ball.direction.y *= -1;
+		hit = true;
+	}
+
+
+	if(hit)
+	{
+		std::mt19937 rng{ std::random_device{}() };
+		std::uniform_real_distribution<float> distX(0, PI);
+		std::uniform_real_distribution<float> distY(-PI / 2, PI / 2);
+		ball.direction.x += std::cos(distX(rng));
+		ball.direction.y += std::sin(distY(rng));
+		ball.direction.Normalize();
 	}
 }
