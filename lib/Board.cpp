@@ -291,6 +291,7 @@ void Board::UpdateBoard(Ball& b)
 	//		}
 	//	}
  //   }
+	bool hit = false;
 
 	for (int x = 0; x < column; ++x)
 	{
@@ -298,8 +299,17 @@ void Board::UpdateBoard(Ball& b)
 		{
 			Brick& br = GetBrick(x, y);
 			bool alive = br.isAlive;
-			br.Update(b);
+			hit = br.Update(b);
 			if (alive != br.isAlive) --remainingBricks;
+			if(hit)
+			{
+				std::mt19937 rng{ std::random_device{}() };
+				std::uniform_real_distribution<float> distX(0, PI);
+				std::uniform_real_distribution<float> distY(-PI / 2, PI / 2);
+				b.direction.x += std::cos(distX(rng));
+				b.direction.y += std::sin(distY(rng));
+				b.direction.Normalize();
+			}
 		}
 	}
 }

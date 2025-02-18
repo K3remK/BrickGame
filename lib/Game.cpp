@@ -4,7 +4,7 @@
 Game::Game()
     :
     player(Vec2(screenWidth / 2 - playerSize.x / 2, screenHeight - 100.0f)),
-    ball(Vec2(screenWidth / 2, 600.0f), ballRadius, ballSpeed, Vec2(0.4f, -0.3f))
+    ball(Vec2(screenWidth / 2, 600.0f), ballRadius, ballSpeed, Vec2(1.0f, -1.0f))
 {
     InitWindow(screenWidth, screenHeight, "Brick Game");
     SetTargetFPS(FPS);
@@ -58,9 +58,6 @@ void Game::DrawGame()
             DrawText(("Remaining Bricks: " + itos(board.remainingBricks)).c_str(), screenWidth / 2 - 80, screenHeight / 2 + 20, 20, RED);
         }
         if (pause) DrawText("Paused!", screenWidth / 2 - 50, screenHeight / 2, 20, RED);
-
-        //DrawText(("x:" + itos(static_cast<int>(ball.pos.x))).c_str(), 10, 10, 20, RED);
-        //DrawText(("y: " + itos(static_cast<int>(ball.pos.y))).c_str(), 100, 10, 20, RED);
     EndDrawing();
 }
 
