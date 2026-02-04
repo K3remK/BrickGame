@@ -1,0 +1,9 @@
+build/
+.vscode/
+compile_commands.json
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.log
+.DS_Store

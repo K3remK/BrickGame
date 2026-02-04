@@ -25,7 +25,7 @@ endif()
 # Our Project
 
 #add_subdirectory(lib)
-add_executable(${PROJECT_NAME} main.cpp lib/Game.cpp lib/Game.h lib/Brick.cpp lib/Brick.h lib/Player.cpp lib/Player.h lib/Board.cpp lib/Board.h lib/Vec2.cpp lib/Vec2.h)
+add_executable(${PROJECT_NAME} main.cpp lib/Game.cpp lib/Game.h lib/Brick.cpp lib/Brick.h lib/Player.cpp lib/Player.h lib/Board.cpp lib/Board.h lib/Vec2.cpp lib/Vec2.h lib/Ball.cpp lib/Ball.h)
 #set(raylib_VERBOSE 1)
 target_link_libraries(${PROJECT_NAME} raylib)
 
